@@ -5,8 +5,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server.js",
-    "server": "node server.js"
+    "start": "nodemon backend/server.js",
+    "server": "node backend/server.js"
   },
   "author": "Nauman ijaz",
   "license": "ISC",
