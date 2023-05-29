@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "this is my personal project for my university for result management",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon server.js",
-    "server":"node server.js"
+    "server": "node server.js"
   },
   "author": "Nauman ijaz",
   "license": "ISC",
