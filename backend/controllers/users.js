@@ -1,7 +1,6 @@
 const getAllUsers = (req, res) => {
   res.status(200).json({ data: "all users" });
 };
-
 const registerUser = (req, res) => {
   res.status(201).json({ data: "register user" });
 };
@@ -12,6 +11,6 @@ const updateUser = async (req, res) => {
   res.status(201).json({ data: `update user ${req.params.id}` });
 };
 const deleteUser = (req, res) => {
-  res.status(200).json({ data: "delete user" });
+  res.status(200).json({ data: `delete user ${req.params.id}` });
 };
 export { getAllUsers, registerUser, getUser, updateUser, deleteUser };

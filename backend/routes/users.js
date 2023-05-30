@@ -7,10 +7,9 @@ import {
   updateUser,
 } from "../controllers/users.js";
 const router = express.Router();
-
 router.get("/", getAllUsers);
-router.post("/", registerUser);
 router.get("/profile", getUser);
+router.post("/", registerUser);
 router.put('/:id', updateUser);
 router.delete("/:id", deleteUser);
 export default router;
